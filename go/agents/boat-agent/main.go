@@ -57,9 +57,6 @@ func LoadConfig() Config {
 	}
 
 	if cfg.Port == "" {
-		cfg.Port = os.Getenv("NAVALLOG_AGENT_PORT")
-	}
-	if cfg.Port == "" {
 		cfg.Port = "8081" // Default fallback
 	}
 
