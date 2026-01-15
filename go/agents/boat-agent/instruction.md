@@ -27,5 +27,6 @@ Please return the data in a json object format:
     "draft":draft,
     "mast":mast,
     "sources": [source]
+    "error":error msg. omit if null
 }
 ```
